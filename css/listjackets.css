@@ -1,0 +1,36 @@
+
+
+
+
+
+/* phone  */
+@media (max-width: 900px) {
+
+    main {
+        margin: 150px;
+    }
+
+    .jacket1{
+        display: inline-block;
+        align-items: center;
+        background-color: aqua;
+        max-width: 180px;
+        max-height: 270px;
+        margin: 20px;
+    }
+
+    .image {
+        width: 130px;
+        height: 170px;
+    }
+
+}
+
+
+
+/* desktop*/
+@media (min-width: 900px) {
+    main {
+        margin: 20px;
+    }
+}

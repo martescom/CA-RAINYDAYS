@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.arrow-icon {
+    max-width: 30px;
+}
+
+.size-button{
+    font-size: 24px;
+    padding: 10px;
+    border: solid 1px;
+    border-color: #5f6368;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    margin: 10px 15px 40px 0px;
+}
+
+.add-to-bag {
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 170px;
+    font-size: 24px;
+    align-self: center;
+    padding: 10px 30px;
+    text-transform: uppercase; 
+}
+
+.color {
+    min-width: 50px;
+    margin: 0px 15px 30px 0px;
+}
+
+/* phone  */
+@media (max-width: 900px) {
+
+    main{
+        margin: 30px;
+    }
+
+    .jacket-info {
+        padding: 50px 0px;
+    }
+
+    .scott-jacket {
+        max-width: 160px;
+    }
+
+    .details {
+        margin-bottom: 40px;
+    }
+
+    .add-button {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 80px 0px;
+    }
+}
+
+/* desktop*/
+@media (min-width: 900px) {
+
+
+    main {
+        margin: 64px;
+    }
+
+    .info-jacket {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    .container-jacket {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scott-jacket {
+        max-width: 450px;
+        max-height: 520px;
+        align-self: center;
+    }
+
+    .add-button {
+        margin: 50px 0px;
+    }
+}

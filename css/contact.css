@@ -1,0 +1,60 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 2px;
+    padding-bottom: 50px;
+    margin: 100px 30px 50px 30px
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    min-height: 20px;
+}
+
+#message {
+    min-height: 150px;
+    min-width: 220px;
+    margin-bottom: 100px;
+}
+
+.send-button {
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 24px;
+    align-self: center;
+    margin: 30px;
+    padding: 5px;
+    text-transform: uppercase; 
+    font-family:'Cormorant', sans-serif, Arial, Helvetica;
+}
+
+
+/* phone  */
+@media (max-width: 900px) {
+
+   
+
+}
+
+/* desktop*/
+@media (min-width: 900px) {
+
+
+    .contact {
+        margin: 50px 100px 50px 100px
+    }
+
+
+
+
+}
