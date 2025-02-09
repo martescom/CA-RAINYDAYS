@@ -1,36 +1,56 @@
+main {
+    margin: 20px;
+}
 
+.arrow-icon {
+    max-width: 30px;
+}
 
+.nav-top {
+    margin-bottom: 80px;
+}
 
+.image {
+    max-width: 240px;
+    padding-top: 30px;
+}
 
 
 /* phone  */
 @media (max-width: 900px) {
 
-    main {
-        margin: 150px;
-    }
-
-    .jacket1{
-        display: inline-block;
+    .jacket1 {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        background-color: aqua;
-        max-width: 180px;
-        max-height: 270px;
-        margin: 20px;
+        border: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0, 0.593);
+        margin-bottom: 60px;
     }
-
-    .image {
-        width: 130px;
-        height: 170px;
-    }
-
 }
-
-
 
 /* desktop*/
 @media (min-width: 900px) {
+
     main {
-        margin: 20px;
+        margin: 64px;
     }
+
+   .jacket1 {
+        border: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0, 0.593);
+        padding: 50px 30px;
+        margin: 50px 50px; 
 }
+    .list-jackets {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    
+}  
